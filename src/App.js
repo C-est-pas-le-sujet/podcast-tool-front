@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Chapter from "./Chapter";
 import NewChapter from "./NewChapter";
 import Player from "./Player";
+import SelectPodcast from "./SelectPodcast";
 import data from "./data.json";
 
 import "./App.css";
@@ -69,22 +70,7 @@ const App = () => {
 
           <div className="col-md-10 podcast">
             <h1>Podcast tool</h1>
-            <h2>Select podcast</h2>
-            <select
-              className="form-group form-control"
-              value={podcastId}
-              onChange={(e) => {
-                setPodcastId(e.target.value);
-                setChapters(data.podcasts[e.target.value].chapters);
-              }}
-            >
-              <option value={null}>Select a podcast</option>
-              {data.podcasts.map(({ title, season, episode }, index) => (
-                <option value={index}>
-                  {title} {season}x{episode}
-                </option>
-              ))}
-            </select>
+            <SelectPodcast podcastId={podcastId} setPodcastId={setPodcastId} setChapters={setChapters} data={data} />
             {podcastId !== null && (
               <>
                 <h2>
