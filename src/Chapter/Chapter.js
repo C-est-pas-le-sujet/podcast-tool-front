@@ -36,6 +36,7 @@ const Chapter = ({ index, author, name, notes, startTime, stopTime, setCurrentSo
                 type="button"
                 className="btn btn-success"
                 onClick={() => {
+                  setCurrentSound("jingle");
                   setCurrentSound("virgule");
                   setChapters((prevChapters) => {
                     prevChapters[prevChapters.findIndex(({ current }) => current)].stopTime = timer;

@@ -11,29 +11,6 @@ import data from "./data.json";
 
 import "./App.css";
 
-const sounds = [
-  {
-    name: "jingle",
-    duration: "00:23",
-    path: "",
-  },
-  {
-    name: "intro",
-    duration: "00:23",
-    path: "",
-  },
-  {
-    name: "bed",
-    duration: "00:10",
-    path: "",
-  },
-  {
-    name: "virgule",
-    duration: "00:01",
-    path: "",
-  },
-];
-
 const App = () => {
   const [currentSound, setCurrentSound] = useState();
   const [timer, setTimer] = useState(0);
@@ -50,25 +27,6 @@ const App = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-2 sounds">
-            <h3>Sounds</h3>
-            {sounds.map(({ name, duration }) => (
-              <div className="row" key={name}>
-                <button
-                  type="button"
-                  className="btn btn-link col-md-12"
-                  onClick={() => {
-                    setCurrentSound(name);
-                  }}
-                >
-                  <div className="row">
-                    <div className="col-md-2">
-                      <small className="text-muted">{duration}</small>
-                    </div>
-                    <div className="col-md-10">{name}</div>
-                  </div>
-                </button>
-              </div>
-            ))}
             <Player currentSound={currentSound} />
           </div>
 
