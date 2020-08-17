@@ -1,0 +1,90 @@
+{
+  "podcasts": [
+    {
+      "title": "Apple vs Epic, Tenet",
+      "season": 2,
+      "episode": 1,
+      "chapters": [
+        {
+          "name": "Intro",
+          "startTime": null,
+          "stopTime": null,
+          "author": "SH",
+          "notes": [
+            "Lorem ipsum",
+            "sit dolor",
+            "amet"
+          ],
+          "current": false
+        },
+        {
+          "name": "Apple vs Epic",
+          "startTime": null,
+          "stopTime": null,
+          "author": "John",
+          "notes": [
+            "Lorem ipsum",
+            "sit dolor",
+            "amet"
+          ],
+          "current": false
+        },
+        {
+          "name": "Tenet",
+          "startTime": null,
+          "stopTime": null,
+          "author": "John",
+          "notes": [
+            "Lorem ipsum",
+            "sit dolor",
+            "amet"
+          ],
+          "current": false
+        },
+        {
+          "name": "Mulan",
+          "startTime": null,
+          "stopTime": null,
+          "author": "John",
+          "notes": [
+            "Lorem ipsum",
+            "sit dolor",
+            "amet"
+          ],
+          "current": false
+        },
+        {
+          "name": "iPhone",
+          "startTime": null,
+          "stopTime": null,
+          "author": "John",
+          "notes": [
+            "Lorem ipsum",
+            "sit dolor",
+            "amet"
+          ],
+          "current": false
+        }
+      ]
+    },
+    {
+      "title": "Super deuxième épisode de la saison 2!",
+      "season": 2,
+      "episode": 2,
+      "chapters": [
+        {
+          "name": "Intro",
+          "startTime": null,
+          "stopTime": null,
+          "author": "John",
+          "notes": [
+            "Lorem ipsum",
+            "sit dolor",
+            "amet"
+          ],
+          "current": false
+        }
+      ]
+    }
+  ]
+}
