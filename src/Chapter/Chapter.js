@@ -1,4 +1,7 @@
 import React from "react";
+
+import { secondsToMMSS } from "../services/date";
+
 import "./Chapter.scss";
 
 const Chapter = ({ index, author, name, notes, startTime, stopTime, setCurrentSound, setChapters, timer, current, podcastStarted }) => {
@@ -56,9 +59,9 @@ const Chapter = ({ index, author, name, notes, startTime, stopTime, setCurrentSo
           {startTime !== null && (
             <>
               <small className="text-muted">
-                <span>Started at {startTime} - </span>
-                {stopTime && !current && <span>Stoped at {stopTime} - </span>}
-                <span>Duration : {duration}</span>
+                <span>Started at {secondsToMMSS(startTime)} - </span>
+                {stopTime && !current && <span>Stoped at {secondsToMMSS(stopTime)} - </span>}
+                <span>Duration : {secondsToMMSS(duration)}</span>
               </small>
             </>
           )}

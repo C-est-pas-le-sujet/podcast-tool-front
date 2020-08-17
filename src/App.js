@@ -3,6 +3,10 @@ import Chapter from "./Chapter";
 import NewChapter from "./NewChapter";
 import Player from "./Player";
 import SelectPodcast from "./SelectPodcast";
+import Export from "./Export";
+
+import { secondsToMMSS } from "./services/date";
+
 import data from "./data.json";
 
 import "./App.css";
@@ -76,7 +80,7 @@ const App = () => {
                 <h2>
                   {data.podcasts[podcastId].title} {data.podcasts[podcastId].season}x{data.podcasts[podcastId].episode}
                 </h2>
-                <h3>{timer}</h3>
+                <h3>{secondsToMMSS(timer)}</h3>
                 {chapters[0].startTime === null && (
                   <button
                     type="button"
@@ -146,23 +150,7 @@ const App = () => {
                   ))}
                   <NewChapter setChapters={setChapters} />
                 </div>
-                <div className="export">
-                  <h3>Summary</h3>
-                  <div className="export-summary">
-                    <h4>Titre</h4>
-                    {data.podcasts[podcastId].title} {data.podcasts[podcastId].season}x{data.podcasts[podcastId].episode}
-                    <h4>Description</h4>
-                    Hello ! Début de la description
-                    {data.podcasts[podcastId].chapters.map(({ name, startTime }) => (
-                      <p>
-                        {startTime} - {name}
-                      </p>
-                    ))}
-                    Fin de la description
-                  </div>
-                  <h3>Timecode</h3>
-                  <div className="export-timecode">Format pour l'export audacity / ffmpeg ?</div>
-                </div>
+                <Export data={data} podcastId={podcastId} />
               </>
             )}
           </div>
