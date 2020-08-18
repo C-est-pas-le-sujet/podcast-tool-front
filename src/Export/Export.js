@@ -22,41 +22,39 @@ const Export = ({ data, podcastId }) => {
           <a href="https://anchor.fm/techcast-podcast">https://anchor.fm/techcast-podcast</a> !{" "}
         </p>
         <p>L’enregistrement se fait via discord, donc si vous souhaitez participer n’hésitez pas : http://discord.techcast.fr </p>
-        <p>
-          N'hésitez pas non plus à nous faire vos retours grâce au hashtag #CPLS et nous retrouver sur twitter :
-          <ul>
-            <li>
-              Johnathan MEUNIER : <a href="https://twitter.com/J7N__">@J7N__</a>
-            </li>
-            <li>
-              Charles-Henri DUMALIN : <a href="https://twitter.com/CallMeSH">@CallMeSH</a>
-            </li>
-          </ul>
-          <p>Merci également pour tous les partages et les abonnements. </p>
-          <p>Matériels : </p>
-          <ul>
-            <li>
-              Micro & pied : <a href="https://amzn.to/2Lweire">https://amzn.to/2Lweire</a>
-            </li>
-            <li>
-              Table de mixage : <a href="https://amzn.to/2Al0idg">https://amzn.to/2Al0idg</a>
-            </li>
-            <li>
-              Enregistreur : <a href="https://amzn.to/2Lzoori">https://amzn.to/2Lzoori</a>
-            </li>
-            <li>
-              iPad : <a href="https://amzn.to/2CTjyzT">https://amzn.to/2CTjyzT</a>
-            </li>
-            <li>
-              Bird UM1 : <a href="https://amzn.to/2vVAgyV">https://amzn.to/2vVAgyV</a>
-            </li>
-          </ul>
-          <p>Code Shadow :</p>
-          <ul>
-            <li>John : JOHHJWQB</li>
-            <li>SH : CHANEOJH</li>
-          </ul>
-        </p>
+        <p>N'hésitez pas non plus à nous faire vos retours grâce au hashtag #CPLS et nous retrouver sur twitter :</p>
+        <ul>
+          <li>
+            Johnathan MEUNIER : <a href="https://twitter.com/J7N__">@J7N__</a>
+          </li>
+          <li>
+            Charles-Henri DUMALIN : <a href="https://twitter.com/CallMeSH">@CallMeSH</a>
+          </li>
+        </ul>
+        <p>Merci également pour tous les partages et les abonnements. </p>
+        <p>Matériels : </p>
+        <ul>
+          <li>
+            Micro & pied : <a href="https://amzn.to/2Lweire">https://amzn.to/2Lweire</a>
+          </li>
+          <li>
+            Table de mixage : <a href="https://amzn.to/2Al0idg">https://amzn.to/2Al0idg</a>
+          </li>
+          <li>
+            Enregistreur : <a href="https://amzn.to/2Lzoori">https://amzn.to/2Lzoori</a>
+          </li>
+          <li>
+            iPad : <a href="https://amzn.to/2CTjyzT">https://amzn.to/2CTjyzT</a>
+          </li>
+          <li>
+            Bird UM1 : <a href="https://amzn.to/2vVAgyV">https://amzn.to/2vVAgyV</a>
+          </li>
+        </ul>
+        <p>Code Shadow :</p>
+        <ul>
+          <li>John : JOHHJWQB</li>
+          <li>SH : CHANEOJH</li>
+        </ul>
       </div>
       <h3>Timecode</h3>
       <button

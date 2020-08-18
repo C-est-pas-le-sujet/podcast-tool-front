@@ -33,13 +33,16 @@ const App = () => {
 
           <div className="col-md-10 podcast">
             <h1>Podcast tool</h1>
-            <SelectPodcast podcastId={podcastId} setPodcastId={setPodcastId} setChapters={setChapters} data={data} />
+            <div className="row">
+              <div className="col-md-8">
+                <SelectPodcast podcastId={podcastId} setPodcastId={setPodcastId} setChapters={setChapters} data={data} />
+              </div>
+              <div className="col-md-4">
+                <h3>{secondsToMMSS(timer)}</h3>
+              </div>
+            </div>
             {podcastId !== null && (
               <>
-                <h2>
-                  {data.podcasts[podcastId].title} {data.podcasts[podcastId].season}x{data.podcasts[podcastId].episode}
-                </h2>
-                <h3>{secondsToMMSS(timer)}</h3>
                 {chapters[0].startTime === null && (
                   <button
                     type="button"

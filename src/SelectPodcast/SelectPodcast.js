@@ -3,7 +3,6 @@ import React from "react";
 const NewChapter = ({ podcastId, setPodcastId, setChapters, data }) => {
   return (
     <>
-      <h2>Select podcast</h2>
       <select
         className="form-group form-control"
         value={podcastId}
@@ -14,7 +13,7 @@ const NewChapter = ({ podcastId, setPodcastId, setChapters, data }) => {
       >
         <option value={null}>Select a podcast</option>
         {data.podcasts.map(({ title, season, episode }, index) => (
-          <option value={index}>
+          <option value={index} key={title}>
             {title} {season}x{episode}
           </option>
         ))}

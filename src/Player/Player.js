@@ -21,22 +21,24 @@ const sounds = [
 const Player = ({ currentSound = "virgule" }) => {
   const $players = useRef({});
   useEffect(() => {
-    if (currentSound === "bed") {
-      $players.current[currentSound].volume = 0.5;
-    } else {
-      $players.current[currentSound].volume = 1;
-    }
-    $players.current[currentSound].play();
+    Object.entries($players.current).forEach(([name, sound]) => {
+      if (name === "bed") {
+        sound.volume = 0.5;
+      }
+      sound.pause();
+      sound.currentTime = 0;
+    });
+    $players.current[currentSound.substring(0, currentSound.includes("-") ? currentSound.indexOf("-") : currentSound.length)].play();
   }, [currentSound]);
 
   return (
     <>
       <h3>Sounds</h3>
       {sounds.map(({ sound, name }) => (
-        <>
+        <div key={name}>
           <h5>{name}</h5>
-          <audio ref={(el) => ($players.current[name] = el)} preload src={sound} loop={name === "bed"} controls style={{ width: "100%" }} />
-        </>
+          <audio ref={(el) => ($players.current[name] = el)} preload="auto" src={sound} loop={name === "bed"} controls style={{ width: "100%" }} />
+        </div>
       ))}
     </>
   );
