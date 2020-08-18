@@ -1,15 +1,31 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 
 import { secondsToMMSS } from "../services/date";
 
 const Export = ({ data, podcastId }) => {
   const $exportTimecode = useRef();
+  const $thumbnail = useRef();
+  const title = `${data.podcasts[podcastId].title} ${data.podcasts[podcastId].season}x${data.podcasts[podcastId].episode}`;
+  useEffect(() => {
+    console.log($thumbnail);
+    const canvas = $thumbnail.current;
+    const ctx = canvas.getContext("2d");
+    var background = new Image();
+    background.src =
+      "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.techcastglobal.com%2Fwp-content%2Fuploads%2F2016%2F04%2FTechCast_Logo_Vertical_Slogan-300x252.jpg&f=1&nofb=1";
+    background.onload = function () {
+      ctx.drawImage(background, 0, 0);
+      ctx.font = "30px Arial";
+      ctx.fillText(title, 10, 50);
+    };
+  }, [data]);
+
   return (
     <div className="export">
       <h3>Summary</h3>
       <div className="export-summary" contentEditable>
         <h4>Titre</h4>
-        {data.podcasts[podcastId].title} {data.podcasts[podcastId].season}x{data.podcasts[podcastId].episode}
+        {title}
         <h4>Description</h4>
         Hello ! Début de la description
         {data.podcasts[podcastId].chapters.map(({ name, startTime }) => (
@@ -56,6 +72,8 @@ const Export = ({ data, podcastId }) => {
           <li>SH : CHANEOJH</li>
         </ul>
       </div>
+      <h3>Vignette</h3>
+      <canvas width="600" height="600" ref={$thumbnail}></canvas>
       <h3>Timecode</h3>
       <button
         className="btn btn-info"
