@@ -18,7 +18,7 @@ const Export = ({ data, podcastId }) => {
       ctx.font = "30px Arial";
       ctx.fillText(title, 10, 50);
     };
-  }, [data]);
+  }, [data, title]);
 
   return (
     <div className="export">
