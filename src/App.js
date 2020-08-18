@@ -20,6 +20,7 @@ const App = () => {
 
   useEffect(() => {
     setChapters(chapters.sort((a, b) => (a.startTime !== null ? a.startTime - b.startTime : 0)));
+    localStorage.setItem("chapters", JSON.stringify(chapters));
   }, [chapters]);
 
   return (
