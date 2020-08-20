@@ -1,0 +1,31 @@
+$primary: #14066e;
+$secondary: #68149c;
+
+h1 {
+  text-align: center;
+  margin: 20px auto !important;
+}
+.timer {
+  position: fixed !important;
+  top: 0px;
+  right: 0px;
+  width: auto !important;
+  height: auto;
+  padding: 0px 20px;
+  background-color: $primary;
+  color: #fff;
+  z-index: 10;
+  h3 {
+    font-size: 3rem;
+  }
+}
+
+.sounds {
+  background-color: #efefef;
+}
+
+.actions {
+  display: flex !important;
+  justify-content: center;
+  margin: 20px 0px;
+}

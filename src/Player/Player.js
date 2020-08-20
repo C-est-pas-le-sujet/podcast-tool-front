@@ -3,6 +3,8 @@ import bed from "./sounds/bed.mp3";
 import virgule from "./sounds/virgule.mp3";
 import jingle from "./sounds/jingle.mp3";
 
+import "./Player.scss";
+
 const sounds = [
   {
     name: "jingle",
@@ -35,7 +37,7 @@ const Player = ({ currentSound = "virgule" }) => {
     <>
       <h3>Sounds</h3>
       {sounds.map(({ sound, name }) => (
-        <div key={name}>
+        <div key={name} className={`sound ${name === currentSound ? "sound--curent" : ""}`}>
           <h5>{name}</h5>
           <audio ref={(el) => ($players.current[name] = el)} preload="auto" src={sound} loop={name === "bed"} controls style={{ width: "100%" }} />
         </div>

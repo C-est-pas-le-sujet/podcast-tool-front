@@ -9,7 +9,7 @@ import { secondsToMMSS } from "./services/date";
 
 import data from "./data.json";
 
-import "./App.css";
+import "./App.scss";
 
 const App = () => {
   const [currentSound, setCurrentSound] = useState();
@@ -34,65 +34,68 @@ const App = () => {
           <div className="col-md-10 podcast">
             <h1>Podcast tool</h1>
             <div className="row">
-              <div className="col-md-8">
+              <div className="col-md-6 offset-md-3 select-podcast">
                 <SelectPodcast podcastId={podcastId} setPodcastId={setPodcastId} setChapters={setChapters} data={data} />
               </div>
-              <div className="col-md-4">
+              <div className="timer">
                 <h3>{secondsToMMSS(timer)}</h3>
               </div>
             </div>
             {podcastId !== null && (
               <>
-                {chapters[0].startTime === null && (
-                  <button
-                    type="button"
-                    className="btn btn-success"
-                    onClick={() => {
-                      setCurrentSound("jingle");
-                      setChapters((prevChapters) => {
-                        prevChapters[0].startTime = timer;
-                        prevChapters[0].current = true;
-                        return prevChapters;
-                      });
-                      setTimeout(() => {
-                        setCurrentSound("bed");
-                      }, 11000);
-                      const myInt = setInterval(() => {
-                        setTimer((prevTimer) => {
-                          return prevTimer + 1;
+                <h2>Record</h2>
+                <div className="row actions">
+                  {chapters[0].startTime === null && (
+                    <button
+                      type="button"
+                      className="btn btn-success"
+                      onClick={() => {
+                        setCurrentSound("jingle");
+                        setChapters((prevChapters) => {
+                          prevChapters[0].startTime = timer;
+                          prevChapters[0].current = true;
+                          return prevChapters;
                         });
-                      }, 1000);
-                      setTimerInterval(myInt);
-                    }}
-                  >
-                    Start
-                  </button>
-                )}
-                {chapters[0].startTime !== null && (
-                  <button
-                    type="button"
-                    className="btn btn-danger"
-                    onClick={() => {
-                      clearInterval(timerInterval);
-                      console.log(chapters);
-                      setChapters(
-                        chapters.map((chapter) => {
-                          chapter.current = false;
-                          if (chapter.startTime === null) {
-                            chapter.startTime = timer;
-                          }
-                          if (chapter.stopTime === null) {
-                            chapter.stopTime = timer;
-                          }
-                          return chapter;
-                        })
-                      );
-                      clearInterval(timerInterval);
-                    }}
-                  >
-                    Stop
-                  </button>
-                )}
+                        setTimeout(() => {
+                          setCurrentSound("bed");
+                        }, 11000);
+                        const myInt = setInterval(() => {
+                          setTimer((prevTimer) => {
+                            return prevTimer + 1;
+                          });
+                        }, 1000);
+                        setTimerInterval(myInt);
+                      }}
+                    >
+                      Start
+                    </button>
+                  )}
+                  {chapters[0].startTime !== null && (
+                    <button
+                      type="button"
+                      className="btn btn-danger"
+                      onClick={() => {
+                        clearInterval(timerInterval);
+                        console.log(chapters);
+                        setChapters(
+                          chapters.map((chapter) => {
+                            chapter.current = false;
+                            // if (chapter.startTime === null) {
+                            //   chapter.startTime = timer;
+                            // }
+                            // if (chapter.stopTime === null) {
+                            //   chapter.stopTime = timer;
+                            // }
+                            return chapter;
+                          })
+                        );
+                        clearInterval(timerInterval);
+                      }}
+                    >
+                      Stop
+                    </button>
+                  )}
+                </div>
                 <div className="row row-cols-2">
                   {chapters.map(({ name, notes, startTime, stopTime, author, current }, index) => (
                     <Chapter
