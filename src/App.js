@@ -76,16 +76,10 @@ const App = () => {
                       className="btn btn-danger"
                       onClick={() => {
                         clearInterval(timerInterval);
-                        console.log(chapters);
+                        setTimer(0);
                         setChapters(
                           chapters.map((chapter) => {
                             chapter.current = false;
-                            // if (chapter.startTime === null) {
-                            //   chapter.startTime = timer;
-                            // }
-                            // if (chapter.stopTime === null) {
-                            //   chapter.stopTime = timer;
-                            // }
                             return chapter;
                           })
                         );
