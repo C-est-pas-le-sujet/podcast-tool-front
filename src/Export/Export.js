@@ -22,17 +22,20 @@ const Export = ({ data, podcastId }) => {
 
   return (
     <div className="export">
-      <h3>Summary</h3>
+      <h2>Export</h2>
       <div className="export-summary" contentEditable>
         <h4>Titre</h4>
         {title}
         <h4>Description</h4>
         Hello ! Début de la description
-        {data.podcasts[podcastId].chapters.map(({ name, startTime }) => (
-          <p>
-            {secondsToMMSS(startTime)} - {name}
-          </p>
-        ))}
+        <p>Chapitres et timecodes : </p>
+        {data.podcasts[podcastId].chapters
+          .filter(({ startTime }) => startTime !== null)
+          .map(({ name, startTime }, index) => (
+            <p>
+              {secondsToMMSS(startTime)} - {index + 1} : {name}
+            </p>
+          ))}
         <p>
           Vous pouvez retrouver tous nos podcasts et les différents plateformes sur Anchor :{" "}
           <a href="https://anchor.fm/techcast-podcast">https://anchor.fm/techcast-podcast</a> !{" "}
@@ -74,26 +77,31 @@ const Export = ({ data, podcastId }) => {
       </div>
       <h3>Vignette</h3>
       <canvas width="600" height="600" ref={$thumbnail}></canvas>
-      <h3>Timecode</h3>
-      <button
-        className="btn btn-info"
-        onClick={() => {
-          const el = document.createElement("textarea");
-          el.value = $exportTimecode.current.innerText;
-          document.body.appendChild(el);
-          el.select();
-          document.execCommand("copy");
-          document.body.removeChild(el);
-        }}
-      >
-        Copy Timecode
-      </button>
+      <h3>
+        Timecode{" "}
+        <button
+          className="btn btn-info"
+          onClick={() => {
+            const el = document.createElement("textarea");
+            el.value = $exportTimecode.current.innerText;
+            document.body.appendChild(el);
+            el.select();
+            document.execCommand("copy");
+            document.body.removeChild(el);
+          }}
+        >
+          Copy Timecode
+        </button>
+      </h3>
+
       <pre className="export-timecode" ref={$exportTimecode}>
-        {data.podcasts[podcastId].chapters.map(({ name, startTime, stopTime }, i) => (
-          <p>
-            {startTime}.000000&#9;{stopTime}.000000&#9;{(i + 1 + "").padStart(2, "0")} - {name}
-          </p>
-        ))}
+        {data.podcasts[podcastId].chapters
+          .filter(({ startTime }) => startTime !== null)
+          .map(({ name, startTime, stopTime }, i) => (
+            <p>
+              {startTime}.000000&#9;{stopTime}.000000&#9;{(i + 1 + "").padStart(2, "0")} - {name}
+            </p>
+          ))}
       </pre>
     </div>
   );
