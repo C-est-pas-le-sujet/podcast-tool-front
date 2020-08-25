@@ -50,7 +50,7 @@ const App = () => {
                       type="button"
                       className="btn btn-success"
                       onClick={() => {
-                        setCurrentSound("jingle");
+                        setCurrentSound("intro");
                         setChapters((prevChapters) => {
                           prevChapters[0].startTime = timer;
                           prevChapters[0].current = true;
@@ -58,7 +58,7 @@ const App = () => {
                         });
                         setTimeout(() => {
                           setCurrentSound("bed");
-                        }, 11000);
+                        }, 7000);
                         const myInt = setInterval(() => {
                           setTimer((prevTimer) => {
                             return prevTimer + 1;

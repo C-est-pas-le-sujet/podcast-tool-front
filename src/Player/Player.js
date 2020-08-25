@@ -1,7 +1,8 @@
 import React, { useEffect, useRef } from "react";
-import bed from "./sounds/bed.mp3";
+import bed from "./sounds/bed.wav";
 import virgule from "./sounds/virgule.mp3";
 import jingle from "./sounds/jingle.mp3";
+import intro from "./sounds/intro.wav";
 
 import "./Player.scss";
 
@@ -9,6 +10,10 @@ const sounds = [
   {
     name: "jingle",
     sound: jingle,
+  },
+  {
+    name: "intro",
+    sound: intro,
   },
   {
     name: "bed",
