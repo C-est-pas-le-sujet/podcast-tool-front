@@ -1,6 +1,11 @@
 $primary: #14066e;
 $secondary: #68149c;
 
+@font-face {
+  font-family: "KeepCalm";
+  src: url("/fonts/KeepCalm-Medium.ttf") format("ttf");
+}
+
 h1 {
   text-align: center;
   margin: 20px auto !important;
