@@ -48,7 +48,6 @@ const Export = ({ data, podcastId }) => {
         <h4>Titre</h4>
         {title}
         <h4>Description</h4>
-        Hello ! Début de la description
         <p>Chapitres et timecodes : </p>
         {data.podcasts[podcastId].chapters
           .filter(({ startTime }) => startTime !== null)
@@ -70,7 +69,11 @@ const Export = ({ data, podcastId }) => {
             Charles-Henri DUMALIN : <a href="https://twitter.com/CallMeSH">@CallMeSH</a>
           </li>
         </ul>
-        <p>Merci également pour tous les partages et les abonnements. </p>
+        <p>
+          Un énorme merci à Martin Lavoine pour son travail sur le sound design du podcast grâce à son jingle, l'intro et les cuts ! Vous pouvez le retrouver
+          sur <a href="https://www.facebook.com/MusicMartinLVN/">sa page Facebook </a>et{" "}
+          <a href="https://open.spotify.com/artist/7LK6gSduL4GZ9ulTvclihc?si=7wgpIoZWRIC87Mb5Q4PTCA">sa page Spotify</a>.
+        </p>
         <p>Matériels : </p>
         <ul>
           <li>
