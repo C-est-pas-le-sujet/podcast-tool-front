@@ -11,8 +11,8 @@
           "stopTime": null,
           "author": "John",
           "notes": [
-            "Lorem ipsum",
-            "sit dolor",
+            "Ancien jingle",
+            "Nouveau jingle",
             "amet"
           ],
           "current": false
@@ -57,7 +57,15 @@
           "stopTime": null,
           "author": "John",
           "notes": [
-            "Attentes"
+            "Mars 2021",
+            "4K Osef, 1080p 60fps stable OK",
+            "Même autonomie",
+            "Meilleur écran : plus lumineux, plus grand, moins de bords, etc",
+            "Meilleur fabrication : joycon drift, moins de plastique et de craquement",
+            "Plus de stockage de base, min 128go",
+            "Quid des jeux ? : upscale simple quand possible ?",
+            "Rumeurs : processeur graphique dans le dock",
+            "Plus hypé par une switch pro qu'une PS5"
           ],
           "current": false
         },
@@ -66,7 +74,16 @@
           "startTime": null,
           "stopTime": null,
           "author": "John",
-          "notes": [],
+          "notes": [
+            "Très bon James Bond, Nolan moyen",
+            "Manque de coeur, d'enjeux émotionnel",
+            "Pas si compliqué à comprendre, tout est bien expliqué à la fin",
+            "Mais faussement complexe avec de grand discours",
+            "Quand Inception et interstellar était linéaire et profond, tenet se veut imbriquer mais creux",
+            "Discours De fin du monde bidon, métaphore du retour en arrière de la technologie.",
+            "Pas de fond vert, tout est vrai",
+            "Musique de Ludwig Göransson : Black Panther, The Mandalorian, Creed, Atlanta, ... Paradie de Nolan / Zimmer"
+          ],
           "current": false
         },
         {
@@ -74,7 +91,14 @@
           "startTime": null,
           "stopTime": null,
           "author": "John",
-          "notes": [],
+          "notes": [
+            "Pas au cinéma mais sur Disney+",
+            "Le 04 septembre",
+            "21.99€ en Europe",
+            "Gratuit en France mais sans date (peu d'espoir pour le 04)",
+            "Quid de la location de film à ce tarif ? Au final à peine le montant de deux places de ciné, possibilité de regarder en famille ou en ami, partager le cout, mais nécessité d'avoir un bon équipement",
+            "Quid d'une formulre prenium aux offres de streaming avec un catalogue différent"
+          ],
           "current": false
         }
       ]
