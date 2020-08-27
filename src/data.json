@@ -1,26 +1,14 @@
 {
   "podcasts": [
     {
-      "title": "Apple vs Epic, Tenet",
+      "title": "Saison 2 : Nouveau format, fréquence et identité !",
       "season": 2,
-      "episode": 1,
+      "episode": 0,
       "chapters": [
         {
           "name": "Intro",
           "startTime": null,
           "stopTime": null,
-          "author": "SH",
-          "notes": [
-            "Lorem ipsum",
-            "sit dolor",
-            "amet"
-          ],
-          "current": false
-        },
-        {
-          "name": "Apple vs Epic",
-          "startTime": null,
-          "stopTime": null,
           "author": "John",
           "notes": [
             "Lorem ipsum",
@@ -30,38 +18,21 @@
           "current": false
         },
         {
-          "name": "Tenet",
+          "name": "Présentation de la saison 2",
           "startTime": null,
           "stopTime": null,
-          "author": "John",
+          "author": "SH & John",
           "notes": [
-            "Lorem ipsum",
-            "sit dolor",
-            "amet"
-          ],
-          "current": false
-        },
-        {
-          "name": "Mulan",
-          "startTime": null,
-          "stopTime": null,
-          "author": "John",
-          "notes": [
-            "Lorem ipsum",
-            "sit dolor",
-            "amet"
-          ],
-          "current": false
-        },
-        {
-          "name": "iPhone",
-          "startTime": null,
-          "stopTime": null,
-          "author": "John",
-          "notes": [
-            "Lorem ipsum",
-            "sit dolor",
-            "amet"
+            "Nouvelle identité : logo, noms, plus logique avec les retours et le ton",
+            "Toujours format discussion et débat sans montage",
+            "Enregistrement essentiellement par discord : invitié plus facile",
+            "Fréquence : 2 par mois, enregistrement la veille de la discussion",
+            "Que news et reco",
+            "Episode bonus avec seulement un sujet long : critique de grosse sortie, sujet de fond, etc",
+            "Diffusion le mercredi à 15h",
+            "Nouveau logo",
+            "Jingle ! Merci Martin Lavoine",
+            "Premier épisode le 02 septembre à 15h"
           ],
           "current": false
         }
@@ -70,18 +41,40 @@
     {
       "title": "Super deuxième épisode de la saison 2!",
       "season": 2,
-      "episode": 2,
+      "episode": 1,
       "chapters": [
         {
           "name": "Intro",
           "startTime": null,
           "stopTime": null,
+          "author": "SH",
+          "notes": [],
+          "current": false
+        },
+        {
+          "name": "Switch Pro",
+          "startTime": null,
+          "stopTime": null,
           "author": "John",
           "notes": [
-            "Lorem ipsum",
-            "sit dolor",
-            "amet"
+            "Attentes"
           ],
+          "current": false
+        },
+        {
+          "name": "Tenet",
+          "startTime": null,
+          "stopTime": null,
+          "author": "John",
+          "notes": [],
+          "current": false
+        },
+        {
+          "name": "Mulan",
+          "startTime": null,
+          "stopTime": null,
+          "author": "John",
+          "notes": [],
           "current": false
         }
       ]
