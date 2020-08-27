@@ -1,107 +1,140 @@
 {
-  "podcasts": [
-    {
-      "title": "Saison 2 : Nouveau format, fréquence et identité !",
-      "season": 2,
-      "episode": 0,
-      "chapters": [
-        {
-          "name": "Intro",
-          "startTime": null,
-          "stopTime": null,
-          "author": "John",
-          "notes": [
-            "Ancien jingle",
-            "Nouveau jingle",
-            "amet"
-          ],
-          "current": false
-        },
-        {
-          "name": "Présentation de la saison 2",
-          "startTime": null,
-          "stopTime": null,
-          "author": "SH & John",
-          "notes": [
-            "Nouvelle identité : logo, noms, plus logique avec les retours et le ton",
-            "Toujours format discussion et débat sans montage",
-            "Enregistrement essentiellement par discord : invitié plus facile",
-            "Fréquence : 2 par mois, enregistrement la veille de la discussion",
-            "Que news et reco",
-            "Episode bonus avec seulement un sujet long : critique de grosse sortie, sujet de fond, etc",
-            "Diffusion le mercredi à 15h",
-            "Nouveau logo",
-            "Jingle ! Merci Martin Lavoine",
-            "Premier épisode le 02 septembre à 15h"
-          ],
-          "current": false
-        }
-      ]
-    },
-    {
-      "title": "Super deuxième épisode de la saison 2!",
-      "season": 2,
-      "episode": 1,
-      "chapters": [
-        {
-          "name": "Intro",
-          "startTime": null,
-          "stopTime": null,
-          "author": "SH",
-          "notes": [],
-          "current": false
-        },
-        {
-          "name": "Switch Pro",
-          "startTime": null,
-          "stopTime": null,
-          "author": "John",
-          "notes": [
-            "Mars 2021",
-            "4K Osef, 1080p 60fps stable OK",
-            "Même autonomie",
-            "Meilleur écran : plus lumineux, plus grand, moins de bords, etc",
-            "Meilleur fabrication : joycon drift, moins de plastique et de craquement",
-            "Plus de stockage de base, min 128go",
-            "Quid des jeux ? : upscale simple quand possible ?",
-            "Rumeurs : processeur graphique dans le dock",
-            "Plus hypé par une switch pro qu'une PS5"
-          ],
-          "current": false
-        },
-        {
-          "name": "Tenet",
-          "startTime": null,
-          "stopTime": null,
-          "author": "John",
-          "notes": [
-            "Très bon James Bond, Nolan moyen",
-            "Manque de coeur, d'enjeux émotionnel",
-            "Pas si compliqué à comprendre, tout est bien expliqué à la fin",
-            "Mais faussement complexe avec de grand discours",
-            "Quand Inception et interstellar était linéaire et profond, tenet se veut imbriquer mais creux",
-            "Discours De fin du monde bidon, métaphore du retour en arrière de la technologie.",
-            "Pas de fond vert, tout est vrai",
-            "Musique de Ludwig Göransson : Black Panther, The Mandalorian, Creed, Atlanta, ... Paradie de Nolan / Zimmer"
-          ],
-          "current": false
-        },
-        {
-          "name": "Mulan",
-          "startTime": null,
-          "stopTime": null,
-          "author": "John",
-          "notes": [
-            "Pas au cinéma mais sur Disney+",
-            "Le 04 septembre",
-            "21.99€ en Europe",
-            "Gratuit en France mais sans date (peu d'espoir pour le 04)",
-            "Quid de la location de film à ce tarif ? Au final à peine le montant de deux places de ciné, possibilité de regarder en famille ou en ami, partager le cout, mais nécessité d'avoir un bon équipement",
-            "Quid d'une formulre prenium aux offres de streaming avec un catalogue différent"
-          ],
-          "current": false
-        }
-      ]
-    }
-  ]
+   "podcasts":[
+      {
+         "title":"Saison 2 : Nouveau format, fréquence et identité !",
+         "season":2,
+         "episode":0,
+         "chapters":[
+            {
+               "name":"Intro",
+               "startTime":null,
+               "stopTime":null,
+               "author":"John",
+               "notes":[
+                  "Ancien jingle",
+                  "Nouveau jingle",
+                  "amet"
+               ],
+               "current":false
+            },
+            {
+               "name":"Présentation de la saison 2",
+               "startTime":null,
+               "stopTime":null,
+               "author":"SH & John",
+               "notes":[
+                  "Nouvelle identité : logo, noms, plus logique avec les retours et le ton",
+                  "Toujours format discussion et débat sans montage",
+                  "Enregistrement essentiellement par discord : invitié plus facile",
+                  "Fréquence : 2 par mois, enregistrement la veille de la discussion",
+                  "Que news et reco",
+                  "Episode bonus avec seulement un sujet long : critique de grosse sortie, sujet de fond, etc",
+                  "Diffusion le mercredi à 15h",
+                  "Nouveau logo",
+                  "Jingle ! Merci Martin Lavoine",
+                  "Premier épisode le 02 septembre à 15h"
+               ],
+               "current":false
+            }
+         ]
+      },
+      {
+         "title":"Super deuxième épisode de la saison 2!",
+         "season":2,
+         "episode":1,
+         "chapters":[
+            {
+               "name":"Intro",
+               "startTime":null,
+               "stopTime":null,
+               "author":"SH",
+               "notes":[
+                  
+               ],
+               "current":false
+            },
+            {
+               "name":"Switch Pro",
+               "startTime":null,
+               "stopTime":null,
+               "author":"John",
+               "notes":[
+                  "Mars 2021",
+                  "4K Osef, 1080p 60fps stable OK",
+                  "Même autonomie",
+                  "Meilleur écran : plus lumineux, plus grand, moins de bords, etc",
+                  "Meilleur fabrication : joycon drift, moins de plastique et de craquement",
+                  "Plus de stockage de base, min 128go",
+                  "Quid des jeux ? : upscale simple quand possible ?",
+                  "Rumeurs : processeur graphique dans le dock",
+                  "Plus hypé par une switch pro qu'une PS5"
+               ],
+               "current":false
+            },
+            {
+               "name":"Apple VS Epic",
+               "startTime":null,
+               "stopTime":null,
+               "author":"SH",
+               "notes":[
+                  "Apple prend 30% de commission sur toutes les ventes numériques faites sur son store ce qui a compté en 2019 pour 18.3 milliards de dollars. 40% des revenus de service.",
+                  "Fornite: 1.2 Milliars sur iOS , 360Millions pour apple.",
+                  "Epic a lancé son propre store: 12%. Epic veut faire la même chose sur iOS",
+                  "Epic a donc mis en place un coup markerting en orchestrant sa propre éviction du store",
+                  "Fight justice",
+                  "Apple répond en menaçant de révoquer le compte dev d’epic et l’empêcher de signer des apps contenant l’Unreal Engine",
+                  "Le juge en charge de l’affaire enclin à empecher apple de supprimer le compte dev d’epic Pas enclin à forcer le retour sur le store Boite de pandore",
+                  "Ce que veut vraiment epic: Ouvrir l’epic game store sur iOS et Android avec possibilité de le telecharger depuis le play store et l’app store"
+               ],
+               "current":false
+            },
+            {
+               "name":"Tenet",
+               "startTime":null,
+               "stopTime":null,
+               "author":"John",
+               "notes":[
+                  "Très bon James Bond, Nolan moyen",
+                  "Manque de coeur, d'enjeux émotionnel",
+                  "Pas si compliqué à comprendre, tout est bien expliqué à la fin",
+                  "Mais faussement complexe avec de grand discours",
+                  "Quand Inception et interstellar était linéaire et profond, tenet se veut imbriquer mais creux",
+                  "Discours De fin du monde bidon, métaphore du retour en arrière de la technologie.",
+                  "Pas de fond vert, tout est vrai",
+                  "Musique de Ludwig Göransson : Black Panther, The Mandalorian, Creed, Atlanta, ... Paradie de Nolan / Zimmer"
+               ],
+               "current":false
+            },
+            {
+               "name":"Mulan",
+               "startTime":null,
+               "stopTime":null,
+               "author":"John",
+               "notes":[
+                  "Pas au cinéma mais sur Disney+",
+                  "Le 04 septembre",
+                  "21.99€ en Europe",
+                  "Gratuit en France mais sans date (peu d'espoir pour le 04)",
+                  "Quid de la location de film à ce tarif ? Au final à peine le montant de deux places de ciné, possibilité de regarder en famille ou en ami, partager le cout, mais nécessité d'avoir un bon équipement",
+                  "Quid d'une formulre prenium aux offres de streaming avec un catalogue différent"
+               ],
+               "current":false
+            },
+            {
+               "name":"Fruit Basket",
+               "startTime":null,
+               "stopTime":null,
+               "author":"SH",
+               "notes":[
+                  "Tohru est une etudiante orpheline qui vis une vie super dure mais est toujours positive et pleine d'énergie",
+                  "Elle rencontre les membres d'une famille avec un secret inattendu: lorsqu'un membre du sex opposé rentre en contact avec eux, ils se transforment en animaux",
+                  "Le côté secret n'est qu'un pretexte a créer des situations cocasses et droles",
+                  "La série est sans véritables enjeux au départ ",
+                  "Mon petit bonbon sucré"
+               ],
+               "current":false
+            }
+         ]
+      }
+   ]
 }
