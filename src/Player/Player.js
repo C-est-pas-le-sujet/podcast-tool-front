@@ -30,7 +30,7 @@ const Player = ({ currentSound = "virgule" }) => {
   useEffect(() => {
     Object.entries($players.current).forEach(([name, sound]) => {
       if (name === "bed") {
-        sound.volume = 0.3;
+        sound.volume = 0.1;
       }
       sound.pause();
       sound.currentTime = 0;
