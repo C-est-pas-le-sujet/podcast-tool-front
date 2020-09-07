@@ -32,7 +32,8 @@ const Export = ({ data, podcastId }) => {
     background.src = logo;
     background.onload = function () {
       ctx.drawImage(background, 0, 0, 1000, 1000);
-      ctx.font = "90px KeepCalm";
+      ctx.font = "100px KeepCalm";
+      ctx.fillStyle = "#14066e";
       ctx.textAlign = "center";
       console.log(title.length, transformTitle(title));
       transformTitle(title).forEach((text, i) => {

@@ -39,7 +39,7 @@
       ]
     },
     {
-      "title": "Super deuxième épisode de la saison 2!",
+      "title": "Apple VS Epic, Switch Pro, Tenet, Mulan et Fruit Basket! 2x01",
       "season": 2,
       "episode": 1,
       "chapters": [
@@ -99,6 +99,37 @@
             "Quid de la location de film à ce tarif ? Au final à peine le montant de deux places de ciné, possibilité de regarder en famille ou en ami, partager le cout, mais nécessité d'avoir un bon équipement",
             "Quid d'une formulre prenium aux offres de streaming avec un catalogue différent"
           ],
+          "current": false
+        }
+      ]
+    },
+    {
+      "title": "2x02",
+      "season": 2,
+      "episode": 1,
+      "chapters": [
+        {
+          "name": "Intro",
+          "startTime": null,
+          "stopTime": null,
+          "author": "John",
+          "notes": [],
+          "current": false
+        },
+        {
+          "name": "Nouveautés Apple ?",
+          "startTime": null,
+          "stopTime": null,
+          "author": "John",
+          "notes": [],
+          "current": false
+        },
+        {
+          "name": "Codenames.game",
+          "startTime": null,
+          "stopTime": null,
+          "author": "John",
+          "notes": [],
           "current": false
         }
       ]
