@@ -70,6 +70,23 @@
           "current": false
         },
         {
+          "name": "Apple VS Epic",
+          "startTime": null,
+          "stopTime": null,
+          "author": "SH",
+          "notes": [
+            "Apple prend 30% de commission sur toutes les ventes numériques faites sur son store ce qui a compté en 2019 pour 18.3 milliards de dollars. 40% des revenus de service.",
+            "Fornite: 1.2 Milliars sur iOS , 360Millions pour apple.",
+            "Epic a lancé son propre store: 12%. Epic veut faire la même chose sur iOS",
+            "Epic a donc mis en place un coup markerting en orchestrant sa propre éviction du store",
+            "Fight justice",
+            "Apple répond en menaçant de révoquer le compte dev d’epic et l’empêcher de signer des apps contenant l’Unreal Engine",
+            "Le juge en charge de l’affaire enclin à empecher apple de supprimer le compte dev d’epic Pas enclin à forcer le retour sur le store Boite de pandore",
+            "Ce que veut vraiment epic: Ouvrir l’epic game store sur iOS et Android avec possibilité de le telecharger depuis le play store et l’app store"
+          ],
+          "current": false
+        },
+        {
           "name": "Tenet",
           "startTime": null,
           "stopTime": null,
@@ -100,6 +117,20 @@
             "Quid d'une formulre prenium aux offres de streaming avec un catalogue différent"
           ],
           "current": false
+        },
+        {
+          "name": "Fruit Basket",
+          "startTime": null,
+          "stopTime": null,
+          "author": "SH",
+          "notes": [
+            "Tohru est une etudiante orpheline qui vis une vie super dure mais est toujours positive et pleine d'énergie",
+            "Elle rencontre les membres d'une famille avec un secret inattendu: lorsqu'un membre du sex opposé rentre en contact avec eux, ils se transforment en animaux",
+            "Le côté secret n'est qu'un pretexte a créer des situations cocasses et droles",
+            "La série est sans véritables enjeux au départ ",
+            "Mon petit bonbon sucré"
+          ],
+          "current": false
         }
       ]
     },
@@ -117,10 +148,25 @@
           "current": false
         },
         {
-          "name": "Nouveautés Apple ?",
+          "name": "LG Wing",
           "startTime": null,
           "stopTime": null,
           "author": "John",
+          "notes": [
+            "Présentation concept",
+            "Dubatif au début, enjoué ensuite, mais à quoi ca sert",
+            "Possibilité !",
+            "Nouveau form factor",
+            "Renouveau du téléphone",
+            "Apple Glass, puce sous cutannée, etc"
+          ],
+          "current": false
+        }
+        {
+          "name": "Nouveautés Apple ?",
+          "startTime": null,
+          "stopTime": null,
+          "author": "John & SH",
           "notes": [],
           "current": false
         },
@@ -129,7 +175,12 @@
           "startTime": null,
           "stopTime": null,
           "author": "John",
-          "notes": [],
+          "notes": [
+            "Idéalement à 4 joueurs, 2 équipes de deux, un espion un agent",
+            "Faire deviner des mots présents sur un plateau de 5 x 5 à travers des indices",
+            "Entièrrement jouable en ligne dans les mêmes conditions que le jeu de plateau ",
+            "Gratuit"
+          ],
           "current": false
         }
       ]
