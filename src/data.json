@@ -170,13 +170,22 @@
             "Apple Glass, puce sous cutannée, etc"
           ],
           "current": false
-        }
+        },
         {
           "name": "Nouveautés Apple ?",
           "startTime": null,
           "stopTime": null,
           "author": "John & SH",
-          "notes": [],
+          "notes": [
+            "VO2",
+            "Déjà une référence dans les keynotes non live",
+            "Family Setup !!!",
+            "Apple Watch SE vs Apple Watch series 6",
+            "Apple Fitness +",
+            "iPad 8",
+            "iPad Air 4",
+            "Touch ID 3"
+          ],
           "current": false
         },
         {
