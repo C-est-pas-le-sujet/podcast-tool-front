@@ -144,7 +144,11 @@
           "startTime": null,
           "stopTime": null,
           "author": "John",
-          "notes": [],
+          "notes": [
+            "Format sujet courts",
+            "Switch 4K demandé par Nintendo",
+            "La douane américaine pense et persiste que les One Plus Buds sont des contrefacons d'AirPods."
+          ],
           "current": false
         },
         {
