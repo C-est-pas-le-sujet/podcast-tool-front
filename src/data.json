@@ -209,11 +209,18 @@
       "episode": 3,
       "chapters": [
         {
-          "name": "Intro",
+          "name": "News Flash",
           "startTime": null,
           "stopTime": null,
           "author": "SH",
-          "notes": [],
+          "notes": [
+            "xbox serie x, ca va vite",
+            "hausse vente xbox one x de 897%",
+            "réservation ps5 compliqué",
+            "reprise micromania",
+            "date iphone",
+            "Tesla au prix d'une renault zoé"
+          ],
           "current": false
         },
         {
@@ -229,6 +236,19 @@
           "current": false
         },
         {
+          "name": "Les exclus dans le JV",
+          "startTime": null,
+          "stopTime": null,
+          "author": "SH",
+          "notes": [
+            "First VS Third Party",
+            "Exclusif sur console",
+            "Le rachat de Bethesda par MS",
+            "La cross-gen"
+          ],
+          "current": false
+        },
+        {
           "name": "Reco John",
           "startTime": null,
           "stopTime": null,
@@ -236,6 +256,16 @@
           "notes": [
             "Podcast Community Manager - le Poste General",
             "Guillaume Natas et son co host partage des communautés peu ou mal connues"
+          ],
+          "current": false
+        },
+        {
+          "name": "Reco L'attaque des Titans Saison 4 (Finale)",
+          "startTime": null,
+          "stopTime": null,
+          "author": "SH",
+          "notes": [
+            "7 décembre 2020"
           ],
           "current": false
         }
