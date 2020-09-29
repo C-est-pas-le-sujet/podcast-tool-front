@@ -135,9 +135,9 @@
       ]
     },
     {
-      "title": "2x02",
+      "title": "LG Wing, Keynote Apple: Watch & iPad, Codenames.game, News Flash: PS5, Xbox, Nintendo, Mario, Douanes américaines !",
       "season": 2,
-      "episode": 1,
+      "episode": 2,
       "chapters": [
         {
           "name": "Intro",
@@ -199,6 +199,37 @@
             "Entièrrement jouable en ligne dans les mêmes conditions que le jeu de plateau ",
             "Gratuit"
           ],
+          "current": false
+        }
+      ]
+    },
+    {
+      "title": "02x03",
+      "season": 2,
+      "episode": 3,
+      "chapters": [
+        {
+          "name": "Intro",
+          "startTime": null,
+          "stopTime": null,
+          "author": "SH",
+          "notes": [],
+          "current": false
+        },
+        {
+          "name": "News John",
+          "startTime": null,
+          "stopTime": null,
+          "author": "John",
+          "notes": [],
+          "current": false
+        },
+        {
+          "name": "Reco John",
+          "startTime": null,
+          "stopTime": null,
+          "author": "John",
+          "notes": [],
           "current": false
         }
       ]
