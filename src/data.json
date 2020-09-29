@@ -217,11 +217,15 @@
           "current": false
         },
         {
-          "name": "News John",
+          "name": "Un état sur le MCU",
           "startTime": null,
           "stopTime": null,
           "author": "John",
-          "notes": [],
+          "notes": [
+            "Wanda Vision",
+            "Nouveau calendrier phase 4",
+            "Coffret Infinity Saga"
+          ],
           "current": false
         },
         {
@@ -229,7 +233,9 @@
           "startTime": null,
           "stopTime": null,
           "author": "John",
-          "notes": [],
+          "notes": [
+            "Podcast Community Manager"
+          ],
           "current": false
         }
       ]
