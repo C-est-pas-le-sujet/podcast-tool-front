@@ -270,6 +270,21 @@
           "current": false
         }
       ]
+    },
+    {
+      "title": "02x04",
+      "season": 2,
+      "episode": 4,
+      "chapters": [
+        {
+          "name": "News Flash",
+          "startTime": null,
+          "stopTime": null,
+          "author": "John",
+          "notes": [],
+          "current": false
+        }
+      ]
     }
   ]
 }
