@@ -281,7 +281,12 @@
           "startTime": null,
           "stopTime": null,
           "author": "John",
-          "notes": [],
+          "notes": [
+            "Genshin Impact",
+            "Zevent",
+            "PS5 retrocompat",
+            "Thé mandolarian saison 2"
+          ],
           "current": false
         },
         {
@@ -297,6 +302,32 @@
           ]
         },
         {
+          "name": "Apple Event",
+          "startTime": null,
+          "stopTime": null,
+          "author": "John",
+          "notes": [
+            "HomePod Mini",
+            "99$",
+            "Puce U1 : Changement auto de musique / De lumière ? ",
+            "iPhone",
+            "Tout autour de la 5G",
+            "Beaucoup autour du gaming",
+            "Camera : night mode ultra grand angle / Mag safe",
+            "iPhone Mini <3"
+          ]
+        },
+        {
+          "name": "PS5 : vidéo de démontage",
+          "startTime": null,
+          "stopTime": null,
+          "author": "Micka",
+          "notes": [
+            "Carte d'extension Microsoft vs Sony"
+          ],
+          "current": false
+        },
+        {
           "name": "Reco : Ollie et l'alien",
           "startTime": null,
           "stopTime": null,
@@ -306,6 +337,24 @@
             "Enfant, Ollie a rencontré un extraterrestre. Trente ans plus tard, cet éternel gamin un peu looser va devoir assumer les conséquences de cette rencontre, quand la famille de cet Alien menace de détruire notre planète… Suivez Ollie et l’Alien à travers une comédie d'aventures où se croisent combats aérospatiaux, courses-poursuites dans Los Angeles et crises d'angoisses liées au fait de sortir avec une créature venant d'un autre univers.",
             "Drole, potache sans être vulgaire",
             "Très humain et frais"
+          ],
+          "current": false
+        },
+        {
+          "name": "Reco : Biohacker",
+          "startTime": null,
+          "stopTime": null,
+          "author": "Micka",
+          "notes": [],
+          "current": false
+        },
+        {
+          "name": "Among US",
+          "startTime": null,
+          "stopTime": null,
+          "author": "Micka",
+          "notes": [
+            "chute de fall guys"
           ],
           "current": false
         }
