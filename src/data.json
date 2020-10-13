@@ -283,6 +283,31 @@
           "author": "John",
           "notes": [],
           "current": false
+        },
+        {
+          "name": "Les leaks",
+          "startTime": null,
+          "stopTime": null,
+          "author": "John",
+          "notes": [
+            "Plus aucun événement ne fuite pas avant",
+            "Leaker connu : Jon Prosser, Evan Blass Evleaks, Steve H.McFly @OnLeaks",
+            "Technique marketing : Ubisoft aime faire fuiter pour avoir des avis en avance (Assassin's Creed Valhalla), Google, etc ",
+            "Surprise gaché ? Spoil ?"
+          ]
+        },
+        {
+          "name": "Reco : Ollie et l'alien",
+          "startTime": null,
+          "stopTime": null,
+          "author": "John",
+          "notes": [
+            "De Flobert Florent Bernard et David Combet aux éditions Delcourt",
+            "Enfant, Ollie a rencontré un extraterrestre. Trente ans plus tard, cet éternel gamin un peu looser va devoir assumer les conséquences de cette rencontre, quand la famille de cet Alien menace de détruire notre planète… Suivez Ollie et l’Alien à travers une comédie d'aventures où se croisent combats aérospatiaux, courses-poursuites dans Los Angeles et crises d'angoisses liées au fait de sortir avec une créature venant d'un autre univers.",
+            "Drole, potache sans être vulgaire",
+            "Très humain et frais"
+          ],
+          "current": false
         }
       ]
     }
