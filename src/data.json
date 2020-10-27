@@ -359,6 +359,38 @@
           "current": false
         }
       ]
+    },
+    {
+      "title": "02x05",
+      "season": 2,
+      "episode": 5,
+      "chapters": [
+        {
+          "name": "News Flash",
+          "startTime": null,
+          "stopTime": null,
+          "author": "SH",
+          "notes": [
+            "Fnac",
+            "Micromania",
+            "Lune",
+          ],
+          "current": false
+        },
+        {
+          "name": "Reco - The Devil all the time",
+          "startTime": null,
+          "stopTime": null,
+          "author": "John",
+          "notes": [
+            "Basé sur le roman The Devil All the Time by Donald Ray Pollock",
+            "Produit par Jake Gyllenhal",
+            "Avec Tom Holland, Robert Patinson, Harry Melling",
+            "Knockemstiff, Ohio. Face à sa femme mourante, un homme désespéré, Willard Russell, tente le tout pour le tout. Il se tourne vers la religion. Ses prières vont petit à petit s'apparenter à des sacrifices dont Arvin, le fils du couple, pourrait être l'offrande ultime..."
+          ],
+          "current": false
+        }
+      ]
     }
   ]
 }
