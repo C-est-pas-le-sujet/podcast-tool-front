@@ -366,7 +366,7 @@
       "episode": 5,
       "chapters": [
         {
-          "name": "News Flash",
+          "name": "News Flash & iPhone 12",
           "startTime": null,
           "stopTime": null,
           "author": "SH",
@@ -375,7 +375,21 @@
             "Micromania",
             "Lune : molécules de H2O dans le cratère Clavius / le sable du Sahara en contient environ 100 fois plus en moyenne / L'une d'entre elles apporte les premières preuves concrètes de la présence de molécules d'eau fixées sur, ou contenues dans, les grains du sol lunaire au niveau des régions ensoleillées de la surface. La seconde étude a modélisé de petites zones de la Lune constamment placée dans l'ombre et a montré qu'une surface d'environ 40 000 km², soit la superficie des Pays-Bas, était suffisamment froide pour abriter de la glace, soit une augmentation de 20 % par rapport aux estimations précédentes.",
             "Netflix x Assassin's Creed : lien à faire avec la série The Witcher et le film Assassin's Creed",
-            "Cyberpunk 2077 décallé au 10th decembre"
+            "Cyberpunk 2077 décallé au 10th decembre",
+            "Premières images pour Uncharted avec Tom Holland"
+          ],
+          "current": false
+        },
+        {
+          "name": "Facebook's New Cloud Gaming Service Streams Free-To-Play Mobile Games",
+          "startTime": null,
+          "stopTime": null,
+          "author": "SH",
+          "notes": [
+            "Rolling out today in the U.S. in California, Texas, and the Northeast and mid-Atlantic states",
+            "Android et Navigateur",
+            "Asphalt 9: Legends, Mobile Legends: Adventure, PGA TOUR Golf Shootout, Solitaire: Arthur’s Tale, and WWE SuperCard",
+            "Facebook is also using streaming technology to create cloud playable ads"
           ],
           "current": false
         },
@@ -389,6 +403,37 @@
             "Produit par Jake Gyllenhal",
             "Avec Tom Holland, Robert Patinson, Harry Melling",
             "Knockemstiff, Ohio. Face à sa femme mourante, un homme désespéré, Willard Russell, tente le tout pour le tout. Il se tourne vers la religion. Ses prières vont petit à petit s'apparenter à des sacrifices dont Arvin, le fils du couple, pourrait être l'offrande ultime..."
+          ],
+          "current": false
+        },
+        {
+          "name": "Reco - Descript",
+          "startTime": null,
+          "stopTime": null,
+          "author": "SH",
+          "notes": [
+            "Et si vous gériez vos enregistrements audio et vidéo comme du texte ?",
+            "Podcasting, youtube vidéo",
+            "Super outil collaboratif",
+            "Seulement en anglais pour le moment",
+            "Possible de rééxporter vers un logiciel pro",
+            "A partir de 0$ réalistement 24$ par mois/user"
+          ],
+          "current": false
+        },
+        {
+          "name": "Reco - Sword Art Online (Light Novel)",
+          "startTime": null,
+          "stopTime": null,
+          "author": "SH",
+          "notes": [
+            "type de roman japonais destiné à un public de jeunes adultes",
+            "Déjà (mal) adapté en animé à succès et à très gros budget depuis le film",
+            "3 saisons pour l'animé, un film, déjà une suite annoncée",
+            "Le manga est pas ouf",
+            "Mais moi je lis plutot les bouquins",
+            "42 FUCKING VOLUMES: Main Serie, Progressive, Girl's Ops, Clover's regret, Alternative Gun Gale Online...",
+            "Edité en france chez Ofelbe qui rassemble les volumes par 2, volume 9 + 2 progressive"
           ],
           "current": false
         }
