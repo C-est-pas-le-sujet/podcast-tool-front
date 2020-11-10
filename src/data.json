@@ -449,7 +449,41 @@
           "startTime": null,
           "stopTime": null,
           "author": "John",
-          "notes": [],
+          "notes": [
+            "Xbox Séries",
+            "Xbox All Access",
+            "LASHANA LYNCH, NOUVELLE 007 - Maria Rambeau dans Captain Marvel"
+          ],
+          "current": false
+        },
+        {
+          "name": "La Lo-fi",
+          "startTime": null,
+          "stopTime": null,
+          "author": "John",
+          "notes": [
+            "Pour ceux qui connaissent ca va être main stream, pour les autres ca peut être un life changer",
+            "Je connaissais déjà mais j'ai eu envie de m'y remettre après la très bonne vidéo de Seb !",
+            "Si l’expression Lo-fi touche en premier lieu à la qualité sonore de l’enregistrement (low-fidelity – en opposition à haute fidélité ou hi-fi), celle-ci a pris un sens nouveau au début des années 1990 pour définir l’émergence d’un genre musical en soi.",
+            "Très psychédélique",
+            "Très peu de parole",
+            "Ca me détend grave"
+          ],
+          "current": false
+        },
+        {
+          "name": "Jizo",
+          "startTime": null,
+          "stopTime": null,
+          "author": "John",
+          "notes": [
+            "Manga partagé par Jeel en story",
+            "Coup de coeur sur la couv",
+            "Ce n'est pas la destination qui compte mais le chemin parcouru",
+            "Aki ne retrouve plus le chemin pour rentrer chez lui. Tout le monde semble indifférent à cet enfant perdu. Tous... sauf Jizo, un étrange garçon sorti de nulle part. Est-ce un enfant des rues ? Va-t-il vraiment le ramener chez lui ? A-t-il raison de le suivre dans le temple où il l'emmène ? Malgré son grand sourire, Aki peine à faire confiance à son nouvel ami. Surtout qu'une effroyable sorcière chasse les enfants à la tombée de la nuit…",
+            "Première collaboration entre Mato, une jeune illustratrice japonaise et Mr Tan alias Antoine Dole, scénariste de BD (Mortelle Adèle), de manga (4Life), et de romans jeunesse (Ueno Park), Jizo est un conte qui explore le folklore japonais à la manière d'un Voyage de Chihiro. Tout comme l'amitié entre Aki et Jizo qui se construit, Mato et Mr Tan conjuguent leurs talents et leur sensibilité dans ce très bel ouvrage qui ravira petits et grands !",
+            "On comprend très vite l'histoire, onirique et très émouvant"
+          ],
           "current": false
         }
       ]
