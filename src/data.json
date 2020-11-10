@@ -457,6 +457,14 @@
           "current": false
         },
         {
+          "name": "Apple Silicon M1",
+          "startTime": null,
+          "stopTime": null,
+          "author": "SH",
+          "notes": [],
+          "current": false
+        },
+        {
           "name": "La Lo-fi",
           "startTime": null,
           "stopTime": null,
